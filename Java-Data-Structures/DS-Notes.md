@@ -74,3 +74,34 @@ int m = 5;
 ```
 
 - java.utils.Arrays interface -> contains utility methods for arrays
+
+
+### List
+
+- An ordered collection of elements
+- Allows duplicates
+- Variable sized
+- Several implementations -> ArrayList, Stack, Vector
+
+  ```java
+  List<String> list = new ArrayList<>();
+
+        list.add("a");
+        list.add("b");
+        list.add("okurr");
+
+
+        System.out.println(list);
+        System.out.println(list.size());
+
+        list.forEach(System.out::println);
+  ```
+
+- The '<>' operator or diamond operator is used for type inference allowing the compiler to infer the type
+- List.of() method returns immutable collection of elements
+
+
+### Stack
+
+- LIFO pattern
+- Extends 'Vector' class 

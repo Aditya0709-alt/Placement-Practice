@@ -104,4 +104,26 @@ int m = 5;
 ### Stack
 
 - LIFO pattern
-- Extends 'Vector' class 
+- Extends 'Vector' class
+- Operations -> push, pop, peek
+
+```java
+import java.util.Stack;
+
+public class Stack_DS {
+    public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+
+        stack.push(1);
+        stack.push(2);
+        System.out.println(stack);
+        System.out.println(stack.size());
+        System.out.println(stack.peek());
+        System.out.println(stack.empty());
+    }
+}
+```
+
+### Queue
+
+- FIFO pattern
